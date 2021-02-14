@@ -90,6 +90,8 @@ function iniciarJogo() {
         snakeY += box;
     }
 
+
+
     if(snakeX != food.x || snakeY != food.y) {
         snake.pop();
     }
@@ -98,6 +100,8 @@ function iniciarJogo() {
         food.y = Math.floor(Math.random() * 15 + 1) * box;
     }
 
+
+    
     //snake.pop();
 
     let newHead = {
